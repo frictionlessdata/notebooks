@@ -1,0 +1,9 @@
+ipython
+ipdb
+jupyter
+pandas
+bokeh
+datapackage
+jsontableschema
+goodtables==1.0.0-alpha8
+datapackage-pipelines
