@@ -1,0 +1,83 @@
+{
+  "title": "Israel Municipal Budget Data",
+  "resources": [
+    {
+      "name": "budget-tree",
+      "data <NEW_IN_V1>": [ "budget-tree.csv" ],
+      "path": "budget-tree.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "CODE",
+            "type": "string",
+            "contraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "COMPARABLE",
+            "type": "boolean"
+          },
+          {
+            "name": "DIRECTION",
+            "type": "string",
+            "constraints": {
+              "enum": [ "EXPENDITURE", "REVENUE" ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "tel-aviv-2013",
+      "year": 2013,
+      "data <NEW_IN_V1>": [ "tel-aviv-2013.csv" ],
+      "path": "tel-aviv-2013.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "PARENT",
+            "type": "string",
+            "constraints": {
+              "required": true,
+              "minLength": 2
+            }
+          },
+          {
+            "name": "PARENT SCOPE",
+            "type": "string",
+            "constraints": {
+              "required": true,
+              "pattern": "[0-9|]*"
+            }
+          },
+          {
+            "name": "CODE",
+            "type": "string",
+            "constraints": {
+              "required": true,
+              "pattern": "[0-9.]*",
+              "minLength": 12,
+              "maxLength": 12
+            }
+          },
+          {
+            "name": "NAME",
+            "type": "string",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "BUDGET",
+            "type": "number"
+          },
+          {
+            "name": "ACTUAL",
+            "type": "number"
+          }
+        ]
+      }
+    }
+  ]
+}
