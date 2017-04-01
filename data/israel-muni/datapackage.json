@@ -3,7 +3,7 @@
   "resources": [
     {
       "name": "budget-tree",
-      "data <NEW_IN_V1>": [ "budget-tree.csv" ],
+      "data <NEW_IN_V1: replaces path>": [ "budget-tree.csv" ],
       "path": "budget-tree.csv",
       "schema": {
         "fields": [
@@ -31,7 +31,7 @@
     {
       "name": "tel-aviv-2013",
       "year": 2013,
-      "data <NEW_IN_V1>": [ "tel-aviv-2013.csv" ],
+      "data <NEW_IN_V1: replaces path>": [ "tel-aviv-2013.csv" ],
       "path": "tel-aviv-2013.csv",
       "schema": {
         "fields": [

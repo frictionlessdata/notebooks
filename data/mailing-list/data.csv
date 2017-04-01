@@ -1,0 +1,12 @@
+first_name,last_name,age,rating,contactable,created
+Jane,Roberts,42,4.8,TRUE,2016-01-06
+Joe,Walsh,64,3.0,FALSE,2010-02-04
+Ruby,Smith,19,5.0,TRUE,2011-08-19
+Peter,Harrison,28,2.3,TRUE,2013-11-15
+Mary,Campbell,31,1.9,TRUE,2008-07-28
+Emanuel,Webb,57,3.9,TRUE,2014-04-09
+Natasha,Stocker,23,4.6,TRUE,2016-02-21
+Steven,Levitt,39,4.1,FALSE,2016-09-23
+Emily,Dickens,18,2.1,TRUE,2015-12-30
+Nathan,Stuart,26,1.3,TRUE,2013-01-01
+Ginger,Baker,36,1.8,FALSE,2012-05-19
