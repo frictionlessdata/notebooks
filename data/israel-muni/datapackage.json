@@ -1,4 +1,5 @@
 {
+  "name": "israel-municipal-budget-data",
   "title": "Israel Municipal Budget Data",
   "resources": [
     {
@@ -14,17 +15,29 @@
               "required": true
             }
           },
-          {
-            "name": "COMPARABLE",
-            "type": "boolean"
-          },
+          { "name": "PARENT", "type": "string" },
+          { "name": "PARENT SCOPE", "type": "string" },
           {
             "name": "DIRECTION",
             "type": "string",
             "constraints": {
               "enum": [ "EXPENDITURE", "REVENUE" ]
             }
-          }
+          },
+          { "name": "INVERSE", "type": "string" },
+          { "name": "INVERSE SCOPE", "type": "string" },
+          {
+            "name": "COMPARABLE",
+            "type": "boolean"
+          },
+          { "name": "NAME", "type": "string" },
+          { "name": "NAME_EN", "type": "string" },
+          { "name": "NAME_RU", "type": "string" },
+          { "name": "NAME_AR", "type": "string" },
+          { "name": "DESCRIPTION", "type": "string" },
+          { "name": "DESCRIPTION_EN", "type": "string" },
+          { "name": "DESCRIPTION_RU", "type": "string" },
+          { "name": "DESCRIPTION_AR", "type": "string" }
         ]
       }
     },
@@ -68,6 +81,9 @@
               "required": true
             }
           },
+          { "name": "NAME_EN", "type": "string" },
+          { "name": "NAME_RU", "type": "string" },
+          { "name": "NAME_AR", "type": "string" },
           {
             "name": "BUDGET",
             "type": "number"
